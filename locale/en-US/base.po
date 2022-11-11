@@ -1,0 +1,113 @@
+#: loco:633a26f576a5586ca635f9d2
+msgid "Dimater Payments plugin configuration"
+msgstr "Dimater Payments plugin configuration"
+
+#: loco:633a2704e1c320442d528b92
+msgid "Dimater Payments API Key"
+msgstr "Dimater Payments API Key"
+
+#: loco:633a27129137e15a455b4e92
+msgid "Use cURL CA bundle"
+msgstr "Use cURL CA bundle"
+
+#: loco:633a271fd6c51077af64e8a2
+msgid "Payment methods configuration"
+msgstr "Payment methods configuration"
+
+#: loco:633a27257af4974031114aa4
+msgid "Countries available for AfterPay"
+msgstr "Countries available for AfterPay"
+
+#: loco:633a27412af4ca60934d2ae2
+msgid ""
+"To allow AfterPay - Dimater Payments to be used for any other country just add its "
+"country code (in ISO 2 standard) to the \"Countries available for AfterPay - "
+"Dimater Payments\" field. Example: BE, NL, FR. If field is empty then AfterPay - "
+"Dimater Payments will be available for all countries."
+msgstr ""
+"To allow AfterPay - Dimater Payments to be used for any other country just add its "
+"country code (in ISO 2 standard) to the \"Countries available for AfterPay - "
+"Dimater Payments\" field. Example: BE, NL, FR. If field is empty then AfterPay - "
+"Dimater Payments will be available for all countries."
+
+#: loco:633a2754fceff3263d554402
+msgid ""
+"IP address for testing AfterPay - Dimater Payments. If empty, visible for all. If "
+"filled, only visible for specified IP addresses. (Example: 127.0.0.1, 255."
+"255.255.255)"
+msgstr ""
+"IP address for testing AfterPay - Dimater Payments. If empty, visible for all. If "
+"filled, only visible for specified IP addresses. (Example: 127.0.0.1, 255."
+"255.255.255)"
+
+#: loco:633a2759a634391e26384f42
+msgid "AfterPay Debug IPs"
+msgstr "AfterPay Debug IPs"
+
+#: loco:633a2810b3f06275d972f2a2
+msgid "Get your Dimater Payments API key from Payments merchant portal."
+msgstr "Get your Dimater Payments API key from Payments merchant portal."
+
+#: loco:633a402f20448e0b7b4d46c4
+msgid "API key is empty. Please, set API key and try again"
+msgstr "API key is empty. Please, set API key and try again"
+
+#: loco:633a41cb7af95f14907541b2
+msgid "Please use the following payment information:"
+msgstr "Please use the following payment information:"
+
+#: loco:633a41d1de3376018a534d62
+msgid "Payment Reference:"
+msgstr "Payment Reference:"
+
+#: loco:633a41db84fd5a4bff4fcec2
+msgid "Account Holder:"
+msgstr "Account Holder:"
+
+#: loco:633a41e1463c37569429d5c2
+msgid "Female"
+msgstr "Female"
+
+#: loco:633a41e8463c37569429d5c4
+msgid "Male"
+msgstr "Male"
+
+#: loco:633a41ef4111cc5e84035b02
+msgid "Please select your gender:"
+msgstr "Please select your gender:"
+
+#: loco:633a4251045a2160cf46dfc2
+msgid "I accept Terms and Conditions"
+msgstr "I accept Terms and Conditions"
+
+#: loco:633a42571079c060963aeed2
+msgid "Enter your date of birth"
+msgstr "Enter your date of birth"
+
+#: loco:633a4267de3376018a534d64
+msgid "Only completed orders can be refunded."
+msgstr "Only completed orders can be refunded."
+
+#: loco:633a426c61339103f10b6562
+msgid "Refunds only possible when order is captured."
+msgstr "Refunds only possible when order is captured."
+
+#: loco:633a42703e06d405092100b2
+msgid "Refund is not completed."
+msgstr "Refund is not completed."
+
+#: loco:633a42976bd7a8029714d312
+msgid "Select your bank:"
+msgstr "Select your bank:"
+
+#: loco:633a429dde3376018a534d66
+msgid "Please select your bank to use iDEAL!"
+msgstr "Please select your bank to use iDEAL!"
+
+#: loco:633a42aab931e53a3d145fb2
+msgid "Your order % at %"
+msgstr "Your order % at %"
+
+#: loco:633a43513e06d405092100b4
+msgid "Residence"
+msgstr "Residence"

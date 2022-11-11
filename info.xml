@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<jtlshopplugin>
+    <Name>Dimater payments plugin</Name>
+    <Description>Dimater payments plugin</Description>
+    <Author>Dimater payments</Author>
+    <URL>https://http://di-mater.com</URL>
+    <XMLVersion>101</XMLVersion>
+    <ShopVersion>5.0.0</ShopVersion>
+    <PluginID>dimater_jtl5</PluginID>
+    <CreateDate>2022-11-11</CreateDate>
+    <Version>x</Version>
+    <Install>
+        <Adminmenu>
+            <Settingslink sort="0">
+                <Name>Dimater Payments plugin configuration</Name>
+                <Setting type="text" initialValue="" sort="0" conf="Y">
+                    <Name>Dimater Payments API Key</Name>
+                    <Description>Get your Dimater Payments API key from Payments merchant portal.</Description>
+                    <ValueName>ginger_api_key</ValueName>
+                </Setting>
+                <Setting type="checkbox" initialValue="" sort="1" conf="Y">
+                    <Name>Use cURL CA bundle</Name>
+                    <ValueName>ginger_cacert</ValueName>
+                </Setting>
+            </Settingslink>
+            <Settingslink sort="1">
+                <Name>Payment methods configuration</Name>
+            </Settingslink>
+
+        </Adminmenu>
+
+        <PaymentMethod>
+            <Method>
+                <Name>Dimater Payments CreditCard</Name>
+                <PictureURL>images/credit-card.png</PictureURL>
+                <Sort>1</Sort>
+                <SendMail>1</SendMail>
+                <Provider>Me</Provider>
+                <TSCode>OTHER</TSCode>
+                <PreOrder>0</PreOrder>
+                <Soap>0</Soap>
+                <Curl>1</Curl>
+                <Sockets>0</Sockets>
+                <ClassFile>CreditCard.php</ClassFile>
+                <ClassName>CreditCard</ClassName>
+                <MethodLanguage iso="GER">
+                    <Name>CreditCard</Name>
+                    <ChargeName>Dimater</ChargeName>
+                    <InfoText>Credit Card</InfoText>
+                </MethodLanguage>
+                <MethodLanguage iso="ENG">
+                    <Name>CreditCard</Name>
+                    <ChargeName>Dimater</ChargeName>
+                    <InfoText>Credit Card</InfoText>
+                </MethodLanguage>
+            </Method>
+            <Method>
+                <Name>Dimater Payments PayPal</Name>
+                <PictureURL>images/paypal.png</PictureURL>
+                <Sort>1</Sort>
+                <SendMail>1</SendMail>
+                <Provider>Me</Provider>
+                <TSCode>OTHER</TSCode>
+                <PreOrder>0</PreOrder>
+                <Soap>0</Soap>
+                <Curl>1</Curl>
+                <Sockets>0</Sockets>
+                <ClassFile>PayPal.php</ClassFile>
+                <ClassName>PayPal</ClassName>
+                <MethodLanguage iso="GER">
+                    <Name>PayPal</Name>
+                    <ChargeName>Dimater</ChargeName>
+                    <InfoText>PayPal</InfoText>
+                </MethodLanguage>
+                <MethodLanguage iso="ENG">
+                    <Name>PayPal</Name>
+                    <ChargeName>Dimater</ChargeName>
+                    <InfoText>PayPal</InfoText>
+                </MethodLanguage>
+            </Method>
+            <Method>
+                <Name>Dimater Payments Sofort</Name>
+                <PictureURL>images/sofort.png</PictureURL>
+                <Sort>1</Sort>
+                <SendMail>1</SendMail>
+                <Provider>Me</Provider>
+                <TSCode>OTHER</TSCode>
+                <PreOrder>0</PreOrder>
+                <Soap>0</Soap>
+                <Curl>1</Curl>
+                <Sockets>0</Sockets>
+                <ClassFile>Sofort.php</ClassFile>
+                <ClassName>Sofort</ClassName>
+                <MethodLanguage iso="GER">
+                    <Name>Sofort</Name>
+                    <ChargeName>Dimater</ChargeName>
+                    <InfoText>Sofort</InfoText>
+                </MethodLanguage>
+                <MethodLanguage iso="ENG">
+                    <Name>Sofort</Name>
+                    <ChargeName>Dimater</ChargeName>
+                    <InfoText>Sofort</InfoText>
+                </MethodLanguage>
+            </Method>
+        </PaymentMethod>
+        <Locales>
+            <Variable>
+                <Name>ideal_choose_bank</Name>
+                <Description>Ideal select first option</Description>
+                <VariableLocalized iso="GER">Wählen Sie Ihre Bank:</VariableLocalized>
+                <VariableLocalized iso="ENG">Select your bank:</VariableLocalized>
+            </Variable>
+            <Variable>
+                <Name>afterpay_chose_gender</Name>
+                <Description>AfterPay chose gender</Description>
+                <VariableLocalized iso="GER">Bitte wählen Sie Ihr Geschlecht:</VariableLocalized>
+                <VariableLocalized iso="ENG">Please select your gender:</VariableLocalized>
+            </Variable>
+            <Variable>
+                <Name>afterpay_gender_male</Name>
+                <Description>AfterPay gender male</Description>
+                <VariableLocalized iso="GER">Männlich</VariableLocalized>
+                <VariableLocalized iso="ENG">Male</VariableLocalized>
+            </Variable>
+            <Variable>
+                <Name>afterpay_gender_female</Name>
+                <Description>AfterPay gender female</Description>
+                <VariableLocalized iso="GER">Weiblich</VariableLocalized>
+                <VariableLocalized iso="ENG">Female</VariableLocalized>
+            </Variable>
+            <Variable>
+                <Name>afterpay_enter_dob</Name>
+                <Description>AfterPay enter date of birth</Description>
+                <VariableLocalized iso="GER">Gib dein Geburtsdatum ein</VariableLocalized>
+                <VariableLocalized iso="ENG">Enter your date of birth</VariableLocalized>
+            </Variable>
+            <Variable>
+                <Name>afterpay_i_accept</Name>
+                <Description>AfterPay i accept</Description>
+                <VariableLocalized iso="GER">Ich akzeptiere AfterPay</VariableLocalized>
+                <VariableLocalized iso="ENG">I accept AfterPay</VariableLocalized>
+            </Variable>
+            <Variable>
+                <Name>afterpay_toc</Name>
+                <Description>AfterPay terms and conditions</Description>
+                <VariableLocalized iso="GER">Geschäftsbedingungen</VariableLocalized>
+                <VariableLocalized iso="ENG">Terms and Conditions</VariableLocalized>
+            </Variable>
+            <Variable>
+                <Name>banktransfer_payment_information</Name>
+                <Description>BankTransfer use the following payment information</Description>
+                <VariableLocalized iso="GER">Bitte verwenden Sie die folgenden Zahlungsinformationen:</VariableLocalized>
+                <VariableLocalized iso="ENG">Please use the following payment information:</VariableLocalized>
+            </Variable>
+            <Variable>
+                <Name>banktransfer_payment_reference</Name>
+                <Description>BankTransfer payment reference</Description>
+                <VariableLocalized iso="GER">Zahlungsreferenz:</VariableLocalized>
+                <VariableLocalized iso="ENG">Payment Reference:</VariableLocalized>
+            </Variable>
+            <Variable>
+                <Name>banktransfer_account_holder</Name>
+                <Description>BankTransfer account holder</Description>
+                <VariableLocalized iso="GER">Kontoinhaber:</VariableLocalized>
+                <VariableLocalized iso="ENG">Account Holder:</VariableLocalized>
+            </Variable>
+            <Variable>
+                <Name>banktransfer_residence</Name>
+                <Description>BankTransfer residence</Description>
+                <VariableLocalized iso="GER">Residenz:</VariableLocalized>
+                <VariableLocalized iso="ENG">Residence:</VariableLocalized>
+            </Variable>
+            <Variable>
+                <Name>api_key_missing_error</Name>
+                <Description>Api Key is missing error</Description>
+                <VariableLocalized iso="GER">API-Schlüssel ist leer. Bitte legen Sie den API-Schlüssel fest und versuchen Sie es erneut</VariableLocalized>
+                <VariableLocalized iso="ENG">API key is empty. Please, set API key and try again</VariableLocalized>
+            </Variable>
+        </Locales>
+    </Install>
+</jtlshopplugin>

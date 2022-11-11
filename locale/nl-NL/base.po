@@ -1,0 +1,112 @@
+#: loco:633a26f576a5586ca635f9d2
+msgid "Dimater Payments plugin configuration"
+msgstr "Configuratie van Dimater Payments-plug-in"
+
+#: loco:633a2704e1c320442d528b92
+msgid "Dimater Payments API Key"
+msgstr "Dimater Payments API-sleutel"
+
+#: loco:633a27129137e15a455b4e92
+msgid "Use cURL CA bundle"
+msgstr "Gebruik cURL CA-bundel"
+
+#: loco:633a271fd6c51077af64e8a2
+msgid "Payment methods configuration"
+msgstr "Configuratie van betaalmethoden"
+
+#: loco:633a27257af4974031114aa4
+msgid "Countries available for AfterPay"
+msgstr "Beschikbare landen voor AfterPay"
+
+#: loco:633a27412af4ca60934d2ae2
+msgid ""
+"To allow AfterPay - Dimater Payments to be used for any other country just add its "
+"country code (in ISO 2 standard) to the \"Countries available for AfterPay - "
+"Dimater Payments\" field. Example: BE, NL, FR. If field is empty then AfterPay - "
+"Dimater Payments will be available for all countries."
+msgstr ""
+"Om AfterPay voor elk ander land te kunnen gebruiken, hoeft u alleen maar de "
+"landcode (in ISO 2-norm) toe te voegen aan het veld \"Beschikbare landen "
+"voor AfterPay\". Voorbeeld: BE, NL, FR <br> Als het veld leeg is, is "
+"AfterPay beschikbaar voor alle landen."
+
+#: loco:633a2754fceff3263d554402
+msgid ""
+"IP address for testing AfterPay - Dimater Payments. If empty, visible for all. If "
+"filled, only visible for specified IP addresses. (Example: 127.0.0.1, 255."
+"255.255.255)"
+msgstr ""
+"Indien ingevoerd, wordt alleen voor die IP's de betalingsmethode weergegeven."
+" (Voorbeeld: 128.0.0.1, 255.255.255.255)"
+
+#: loco:633a2759a634391e26384f42
+msgid "AfterPay Debug IPs"
+msgstr "AfterPay Debug IP's"
+
+#: loco:633a2810b3f06275d972f2a2
+msgid "Get your Dimater Payments API key from Payments merchant portal."
+msgstr "Haal uw Dimater Payments API-sleutel op via het betalingsverkopersportaal."
+
+#: loco:633a402f20448e0b7b4d46c4
+msgid "API key is empty. Please, set API key and try again"
+msgstr "API-sleutel is leeg. Stel de API-sleutel in en probeer het opnieuw"
+
+#: loco:633a41cb7af95f14907541b2
+msgid "Please use the following payment information:"
+msgstr "Gebruik de volgende betalingsgegevens:"
+
+#: loco:633a41d1de3376018a534d62
+msgid "Payment Reference:"
+msgstr "Betalingsreferentie:"
+
+#: loco:633a41db84fd5a4bff4fcec2
+msgid "Account Holder:"
+msgstr "Rekeninghouder:"
+
+#: loco:633a41e1463c37569429d5c2
+msgid "Female"
+msgstr "Vrouw"
+
+#: loco:633a41e8463c37569429d5c4
+msgid "Male"
+msgstr "Mannelijk"
+
+#: loco:633a41ef4111cc5e84035b02
+msgid "Please select your gender:"
+msgstr "Selecteer alstublieft uw geslacht:"
+
+#: loco:633a4251045a2160cf46dfc2
+msgid "I accept Terms and Conditions"
+msgstr "Ik accepteer de algemene voorwaarden"
+
+#: loco:633a42571079c060963aeed2
+msgid "Enter your date of birth"
+msgstr "Vul je geboortedatum in"
+
+#: loco:633a4267de3376018a534d64
+msgid "Only completed orders can be refunded."
+msgstr "Alleen voltooide bestellingen kunnen worden terugbetaald."
+
+#: loco:633a426c61339103f10b6562
+msgid "Refunds only possible when order is captured."
+msgstr "Restitutie alleen mogelijk wanneer de bestelling is vastgelegd."
+
+#: loco:633a42703e06d405092100b2
+msgid "Refund is not completed."
+msgstr "Terugbetaling is niet voltooid."
+
+#: loco:633a42976bd7a8029714d312
+msgid "Select your bank:"
+msgstr "Selecteer uw bank:"
+
+#: loco:633a429dde3376018a534d66
+msgid "Please select your bank to use iDEAL!"
+msgstr "Selecteer uw bank om iDEAL te gebruiken!"
+
+#: loco:633a42aab931e53a3d145fb2
+msgid "Your order % at %"
+msgstr "Uw bestelling % bij %"
+
+#: loco:633a43513e06d405092100b4
+msgid "Residence"
+msgstr "Residentie"
