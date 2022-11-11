@@ -23,10 +23,6 @@
                     <ValueName>ginger_cacert</ValueName>
                 </Setting>
             </Settingslink>
-            <Settingslink sort="1">
-                <Name>Payment methods configuration</Name>
-            </Settingslink>
-
         </Adminmenu>
 
         <PaymentMethod>
