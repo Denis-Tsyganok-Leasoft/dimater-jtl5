@@ -8,7 +8,7 @@
     <ShopVersion>5.0.0</ShopVersion>
     <PluginID>dimater_jtl5</PluginID>
     <CreateDate>2022-11-11</CreateDate>
-    <Version>x</Version>
+    <Version>1.0.1.0</Version>
     <Install>
         <Adminmenu>
             <Settingslink sort="0">
