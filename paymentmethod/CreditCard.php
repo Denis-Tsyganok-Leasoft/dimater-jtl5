@@ -1,8 +1,8 @@
 <?php
 
-namespace Plugin\emspay_jtl5\paymentmethod;
+namespace Plugin\dimater_jtl5\paymentmethod;
 
-use Plugin\emspay_jtl5\redefiners\PaymentRedefiner;
+use Plugin\dimater_jtl5\redefiners\PaymentRedefiner;
 
 class CreditCard extends PaymentRedefiner
 {

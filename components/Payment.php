@@ -156,7 +156,7 @@ class Payment extends Method
 
         Shop::Container()->getDB()->update('tbestellung', 'kBestellung', $order->kBestellung, (object)['cStatus'  => HelperRedefiner::$ORDER_STATUSES[$gingerOrder->getStatus()->get()], 'dBezahltDatum' => 'NOW()']);
 
-        if ($gingerOrder->getStatus() == 'completed' || $gingerOrder->getStatus() == 'processing') {
+        if ($gingerOrder->getStatus()->get() == 'completed' || $gingerOrder->getStatus()->get() == 'processing') {
 
             $this->sendConfirmationMail($order);
 
